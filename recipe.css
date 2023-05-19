@@ -1,6 +1,5 @@
 * {
     color: #000000;
-    text-align: center;
     font-family: Helvetica, sans-serif;
 }
 
@@ -13,16 +12,20 @@ img {
     height: auto;
     border: none;
     border-radius: 75px;
+    margin-bottom: 5em;
 }
 
 body {
     width: 50%;
     margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
 }
 
 a {
     text-decoration: none;
-    color: #52afff;
+    color: #499feb;
+    font-weight: bold;
 }
 
 div {
@@ -30,11 +33,19 @@ div {
     border-radius: 5px;
     background-color: rgba(0,0,0,0.5);
     padding: 5px;
-    width: 25%;
-    height: auto;
+    width: 30%;
     margin: auto;
 }
 
 #recipe-list {
     list-style-type: none;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
 }
