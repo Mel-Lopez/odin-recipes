@@ -12,7 +12,7 @@ img {
     height: auto;
     border: none;
     border-radius: 75px;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 
 body {
@@ -26,6 +26,10 @@ a {
     text-decoration: none;
     color: #499feb;
     font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 div {
@@ -47,5 +51,11 @@ ul, ol {
 }
 
 li:not(:last-child) {
-    margin-bottom: 5px;
+    margin-bottom: 1em;
+}
+
+#homepage {
+    display: block;
+    border-top: solid 3px #000000;
+    padding-top: 1em;
 }
