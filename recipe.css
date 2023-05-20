@@ -40,7 +40,7 @@ a:hover {
     text-decoration: underline;
 }
 
-div {
+#recipelinks {
     border: none;
     border-radius: 5px;
     background-color: rgba(0,0,0,0.5);
@@ -62,7 +62,7 @@ li:not(:last-child) {
     margin-bottom: 1em;
 }
 
-#homepage {
+#navlinks {
     display: block;
     border-top: solid 3px #000000;
     padding-top: 1em;
